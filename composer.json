@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/laravel-repositories",
+    "name": "allcaretravel/laravel-repositories",
     "description": "Rinvex Repository is a simple, intuitive, and smart implementation of Active Repository with extremely flexible & granular caching system for Laravel, used to abstract the data layer, making applications more flexible to maintain.",
     "type": "library",
     "keywords": [
@@ -12,15 +12,16 @@
         "eloquent",
         "granular",
         "pattern",
-        "cache"
+        "cache",
+        "allcaretravel"
     ],
     "license": "MIT",
-    "homepage": "https://rinvex.com",
+    "homepage": "https://packages.allcaretravel.com",
     "support": {
-        "email": "help@rinvex.com",
-        "issues": "https://github.com/rinvex/laravel-repositories/issues",
-        "source": "https://github.com/rinvex/laravel-repositories",
-        "docs": "https://github.com/rinvex/laravel-repositories/blob/master/README.md"
+        "email": "sophy.s@allcaretravel.com",
+        "issues": "https://github.com/allcaretravel/laravel-repositories/issues",
+        "source": "https://github.com/allcaretravel/laravel-repositories",
+        "docs": "https://github.com/allcaretravel/laravel-repositories/blob/master/README.md"
     },
     "authors": [
         {
@@ -37,20 +38,25 @@
         {
             "name": "The Generous Laravel Community",
             "homepage": "https://github.com/rinvex/laravel-repositories/contributors"
+        },
+        {
+            "name": "ALLCARE TRAVEL",
+            "homepage": "https://allcaretravel.com",
+            "email": "sophy.s@allcaretravel.com"
         }
     ],
     "require": {
         "php": "^7.2.0",
-        "illuminate/container": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0",
-        "illuminate/contracts": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0",
-        "illuminate/database": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0",
-        "illuminate/events": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0",
-        "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0",
+        "illuminate/container": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0",
+        "illuminate/contracts": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0",
+        "illuminate/database": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0",
+        "illuminate/events": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0",
+        "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0",
         "laravel/helpers": "^1.1.0"
     },
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.26.0",
-        "illuminate/config": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0",
+        "illuminate/config": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0.0|^7.0.0|^8.0.0",
         "phpunit/phpunit": "^8.3.0"
     },
     "suggest": {
