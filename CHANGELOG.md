@@ -4,8 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
-## [v5.0.2] - 2020-10-13
+## [v6.0.1] - 2021-02-11
+- Require php8
+## [v6.0.0] - 2020-10-13
 - Upgrade to Laravel v8 and update dependencies
+- Changed vendor name to allcaretravel
 
 ## [v5.0.1] - 2019-09-24
 - Add missing laravel/helpers composer package
